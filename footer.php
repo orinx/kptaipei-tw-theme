@@ -12,7 +12,7 @@
 </div><!-- #page .hfeed .site -->
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<p style="font-size:16px;">Copyright © 柯文哲官方網站 2014</p>
+			<p style="font-size:16px;">Copyright © 柯文哲官方網站 2014 ，聯絡我們： kpfans[at]kptaipei.tw 。</p>
 <?php if(0){ ?>
 			<?php do_action( 'landscape_credits' ); ?>
 			<a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'landscape' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'landscape' ), 'WordPress' ); ?></a>
