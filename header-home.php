@@ -186,6 +186,7 @@
 
 <div id="page" class="hfeed site">
 	<?php do_action( 'before' ); ?>
+	<div id="breakingnews" style="display:none"></div>
 	<header id="masthead" class="site-header" role="banner">
 	<img src="http://kptaipei.tw/wp-content/uploads/2014/05/element2_400x1961.png" class="word" />
 	<div class="word donate"><a href="https://donate.kptaipei.tw/" target="_blank"><img src="http://kptaipei.tw/wp-content/uploads/2014/05/element3_200x56.png" /></a></div>
