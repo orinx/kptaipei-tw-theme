@@ -84,12 +84,13 @@ get_header("home"); ?>
      $("#breakingnews").html(''
                            + '<div style="position:absolute; top:50%; left:50%"><div style="position: absolute; top:-275px; left:-600px; width:1200px; height:500px;">'
                            + '<div style="width: 50%; margin-left: 25%"><h1 style="margin:0;color:#fff">現在進行式：在野整合政見會</h1></div>'
-                           + '<iframe width="853" height="500" src="//www.youtube.com/embed/s5Vj3VKOZGc" frameborder="0" allowfullscreen></iframe>'
+                           + '<iframe width="853" height="500" src="//www.youtube.com/embed/s5Vj3VKOZGc?autoplay=1" frameborder="0" allowfullscreen></iframe>'
                            + '</div></div>');
      $("#breakingnews").css({"width":"100%", "height":"768px", "text-align":"center", "position":"relative", "margin-top":"48px", "background-image":"url(/wp-content/uploads/2014/06/556482_508964182453025_445060935_n.jpg)", "background-repeat":"no-repeat", "background-position":"center",  "background-attachment":"fixed", "background-size":"100%", "margin-bottom":"-47px", "display":""});
      }
 })(jQuery);
 </script>
+
 
 
 
