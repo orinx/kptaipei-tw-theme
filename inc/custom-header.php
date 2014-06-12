@@ -72,6 +72,16 @@ function landscape_custom_header_image() {
 
 		$background = "rgba(0,0,0,.7)"; ?>
 
+	@media(max-width:320px) {
+		#masthead {
+			background: #111 url( http://kptaipei.tw/wp-content/uploads/2014/06/cropped568x568-14242223084_57782f130c_k.jpg ) center 0 no-repeat fixed;
+			margin-top: 0;
+			padding-bottom: 0;
+			max-width: 100%;
+			height: 568px;
+		}			
+	}
+	@media(min-width:321px) {
 		#masthead {
 			background: #111 url( <?php echo esc_url( $header_image ); ?> ) center 0 no-repeat fixed;
 			margin-top: 0;
@@ -79,6 +89,7 @@ function landscape_custom_header_image() {
 			max-width: 100%;
 			height: <?php echo get_custom_header()->height; ?>px;
 		}
+	}
 
 	<?php endif; // !empty header_image()
 

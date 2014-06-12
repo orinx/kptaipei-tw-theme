@@ -9,8 +9,10 @@
 
 		<div class="entry-meta">
 			<?php landscape_posted_on(); ?>
-	    <div style="float:right;" class="fb-share-button" data-href="<?=get_permalink()?>" data-type="button_count"></div>
 
+	<br />
+
+	<div style="" class="fb-like" data-href="<?=get_permalink()?>" data-layout="button_count" data-action="like" data-share="true"></div>
 
 
 		</div><!-- .entry-meta -->

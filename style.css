@@ -1489,6 +1489,11 @@ font-family: "Helvetica Neue", Helvetica, Arial, "Heiti TC", "Apple LiGothic Med
 }
 
 
+.fb_iframe_widget iframe{
+	max-width: inherit;
+}
+
+
 @media all and (max-width:1026px){
   .main-navigation ul{
         position:static;

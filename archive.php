@@ -95,6 +95,7 @@ get_header(); ?>
 
 <?php get_sidebar(); ?>
 
+<?php get_footer(); ?>
 
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.masonry.min.js" type="text/javascript"></script>
 <script>
@@ -124,5 +125,4 @@ get_header(); ?>
 </script>
 
 
-<?php get_footer(); ?>
 

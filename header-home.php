@@ -15,6 +15,8 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
+<meta name="description" content="<?php bloginfo( 'description') ?>" />
+
 <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" />
 <meta name="google-site-verification" content="lccbSqRgYNZ0A5IJbg9pYeeAYYzYCDiQPllxVMHoEdI" />
 

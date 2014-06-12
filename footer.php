@@ -23,6 +23,7 @@
 <?php } ?>
 	</footer><!-- #colophon .site-footer -->
 
+<div class="fb-recommendations-bar" data-href="http://kptaipei.tw" data-site="kptaipei.tw" data-read-time="10" data-side="right" data-action="like"></div>
 
 <?php wp_footer(); ?>
 

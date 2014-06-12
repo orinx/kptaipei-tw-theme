@@ -79,7 +79,7 @@ get_header("home"); ?>
         //$(document).scrollTop($("#main").offset().top);
 	return false;
      });
-
+/*
      if ( new Date().getTime() > 1402120500000 && new Date().getTime()<1402128000000) {
      $("#breakingnews").html(''
                            + '<div style="position:absolute; top:50%; left:50%"><div style="position: absolute; top:-275px; left:-600px; width:1200px; height:500px;">'
@@ -88,6 +88,7 @@ get_header("home"); ?>
                            + '</div></div>');
      $("#breakingnews").css({"width":"100%", "height":"768px", "text-align":"center", "position":"relative", "margin-top":"48px", "background-image":"url(/wp-content/uploads/2014/06/556482_508964182453025_445060935_n.jpg)", "background-repeat":"no-repeat", "background-position":"center",  "background-attachment":"fixed", "background-size":"100%", "margin-bottom":"-47px", "display":""});
      }
+*/
 })(jQuery);
 </script>
 

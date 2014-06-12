@@ -16,7 +16,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" />
 <meta name="google-site-verification" content="lccbSqRgYNZ0A5IJbg9pYeeAYYzYCDiQPllxVMHoEdI" />
-
+<meta name="description" content="<?php bloginfo( 'description') ?>" />
 
 <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,width=device-width,height=device-height,target-densitydpi=device-dpi,user-scalable=yes" />
 
