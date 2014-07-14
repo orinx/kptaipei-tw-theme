@@ -17,7 +17,7 @@ get_header(); ?>
 					<h1 class="archive-title">
 						<?php
 							if ( is_category() ) {
-								printf( __( '分類: %s', 'landscape' ), '<span>' . single_cat_title( '', false ) . '</span>' );
+								//printf( __( '分類: %s', 'landscape' ), '<span>' . single_cat_title( '', false ) . '</span>' );
 
 							} elseif ( is_tag() ) {
 								printf( __( '標籤: %s', 'landscape' ), '<span>' . single_tag_title( '', false ) . '</span>' );
